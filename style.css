@@ -1,0 +1,256 @@
+  /* <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+ */
+
+
+
+
+
+
+
+  * {
+      padding: 0px;
+      margin: 0px;
+  }
+
+  body {
+      background-color: black;
+  }
+
+  .main {
+      background-image: url("Assets/images/images/bg.jpg");
+      background-position: center;
+      background-size: max(1200px, 100vw);
+      background-repeat: no-repeat;
+      height: 80vh;
+      position: relative;
+  }
+
+  .main .box {
+      height: 80vh;
+      width: 100%;
+      opacity: 0.44;
+      position: absolute;
+      top: 0;
+      background-color: black;
+
+
+  }
+
+  nav {
+      max-width: 80vw;
+      margin: auto;
+      justify-content: space-between;
+      display: flex;
+
+      align-items: center;
+      height: 62px;
+  }
+
+  nav img {
+      color: red;
+      width: 114px;
+      position: relative;
+      z-index: 10;
+  }
+
+  nav button {
+      position: relative;
+      z-index: 10;
+  }
+
+  .hero {
+      height: calc(100% - 123px);
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      color: white;
+      position: relative;
+      /* font-family: "Bebas Neue", sans-serif; */
+      gap: 15px;
+      padding: 30px;
+
+  }
+
+  .hero> :first-child {
+      font-weight: 900;
+      font-weight: bolder;
+      font-size: 48px;
+      text-align: center;
+
+  }
+
+  .hero> :nth-child(2) {
+      font-weight: 400px;
+      font-size: 24px;
+      text-align: center;
+  }
+
+  .hero> :nth-child(3) {
+      font-weight: 400px;
+      font-size: 24px;
+      text-align: center;
+  }
+
+  .sepration {
+      background-color: grey;
+      height: 4px;
+  }
+
+
+  .btn {
+      padding: 3px 8px;
+      font-weight: 300;
+      background-color: rgba(250, 242, 242, 0.281);
+      color: white;
+      border: 1px solid;
+      border-radius: 4px;
+      cursor: pointer;
+  }
+
+  .btn-red {
+      background-color: red;
+      color: white;
+      padding: 3px 24px;
+      font-size: 20px;
+      border-radius: 4px;
+      font-weight: 400;
+
+  }
+
+  .main input {
+      padding: 7px 101px 8px 14px;
+      font-weight: 900;
+      font-size: 14px;
+      border-radius: 4px;
+      background-color: rgba(23, 23, 23, 0.7);
+      border: 1px solid rgba(223, 214, 214, 0.5);
+      color: white;
+
+  }
+
+  .hero-buttons {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 16pxs;
+  }
+
+
+  .btn-red-sam {
+      background-color: red;
+      color: white;
+  }
+
+  .first {
+      display: flex;
+      justify-content: center;
+      max-width: 70vw;
+      margin: auto;
+      color: white;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .secImg {
+      position: relative;
+  }
+
+  .secImg img {
+      width: 30vw;
+      position: relative;
+      z-index: 10;
+  }
+
+  .secImg video {
+      position: absolute;
+      top: 51px;
+      right: 0;
+
+  }
+
+  section.first>div {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .first>div :first-child {
+      font-size: 40px;
+      font-weight: bold;
+  }
+
+  .first>div :nth-child(2) {
+      font-size: 20px;
+      font-weight: bolder;
+  }
+
+  .faq {
+      background-color: black;
+      color: white;
+      padding: 34px;
+  }
+
+  .faq h2 {
+      text-align: center;
+      font-size: 34px;
+
+  }
+
+
+  .faqbox {
+    
+      font-size: 24px;
+      transition: all 2s ease-out;
+    
+
+      display: flex;
+      background-color: rgb(61, 60, 60);
+      justify-content: space-between;
+      padding: 24px;
+      max-width: 40vw;
+      margin: 34px auto;
+      cursor: pointer;
+      border-radius: 4px;
+  }
+
+  .faqbox svg{
+    filter: invert(1);
+  }
+
+
+  .faqbox:hover{
+    background-color: rgb(114, 113, 113);
+  }
+
+
+  .footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+  
+    
+  }
+
+  .footer-item{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  footer{
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 34px;
+  }
+
+  .footer a{
+    color: white;
+    
+  }
+
+  footer .questions{
+    padding: 34px 0;
+  }
